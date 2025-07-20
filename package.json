@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "adm-zip": "^0.5.16"
+  },
+  "name": "itransition-internship",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000I\u0000t\u0000r\u0000a\u0000n\u0000s\u0000i\u0000t\u0000i\u0000o\u0000n\u0000 \u0000I\u0000n\u0000t\u0000e\u0000r\u0000n\u0000 \u0000D\u0000e\u0000v\u0000e\u0000l\u0000o\u0000p\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamim-ar/itransition-internship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamim-ar/itransition-internship/issues"
+  },
+  "homepage": "https://github.com/tamim-ar/itransition-internship#readme"
+}
