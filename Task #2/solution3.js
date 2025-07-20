@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import AdmZip from 'adm-zip';
 
 const zipPath = 'Task #2/task2_3.zip';
-const email = 'tamimahasan.ar@gmail.com'.toLowerCase();
+const email = 'sabilarrahman36@gmail.com'.toLowerCase();
 
 const zip = new AdmZip(zipPath);
 const zipEntries = zip.getEntries().filter(e => !e.isDirectory);
