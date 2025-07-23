@@ -1,8 +1,13 @@
 import crypto from 'crypto';
 import AdmZip from 'adm-zip';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const zipPath = 'Task #2/task2_3.zip';
-const email = 'sabilarrahman36@gmail.com'.toLowerCase();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const zipPath = path.resolve(__dirname, 'task2_3.zip');
+const email = 'tamimahasan.ar@gmail.com'.toLowerCase();
 
 const zip = new AdmZip(zipPath);
 const zipEntries = zip.getEntries().filter(e => !e.isDirectory);

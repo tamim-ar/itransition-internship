@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/tamim-ar/itransition-internship/issues"
   },
-  "homepage": "https://github.com/tamim-ar/itransition-internship#readme"
+  "homepage": "https://github.com/tamim-ar/itransition-internship#readme",
+  "type": "module"
 }
