@@ -1,0 +1,15 @@
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\bin\Debug\net6.0\DiceStuff.exe
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\bin\Debug\net6.0\DiceStuff.deps.json
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\bin\Debug\net6.0\DiceStuff.runtimeconfig.json
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\bin\Debug\net6.0\DiceStuff.dll
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\bin\Debug\net6.0\DiceStuff.pdb
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\DiceStuff.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\DiceStuff.AssemblyInfoInputs.cache
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\DiceStuff.AssemblyInfo.cs
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\DiceStuff.csproj.CoreCompileInputs.cache
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\DiceStuff.sourcelink.json
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\DiceStuff.dll
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\refint\DiceStuff.dll
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\DiceStuff.pdb
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\DiceStuff.genruntimeconfig.cache
+F:\Programming\GitHub\itransition-internship\Task #3\DiceStuff\obj\Debug\net6.0\ref\DiceStuff.dll
