@@ -1,0 +1,15 @@
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\bin\Debug\net8.0\NonTransitiveDiceGame.exe
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\bin\Debug\net8.0\NonTransitiveDiceGame.deps.json
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\bin\Debug\net8.0\NonTransitiveDiceGame.runtimeconfig.json
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\bin\Debug\net8.0\NonTransitiveDiceGame.dll
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\bin\Debug\net8.0\NonTransitiveDiceGame.pdb
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\NonTransitiveDiceGame.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\NonTransitiveDiceGame.AssemblyInfoInputs.cache
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\NonTransitiveDiceGame.AssemblyInfo.cs
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\NonTransitiveDiceGame.csproj.CoreCompileInputs.cache
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\NonTransitiveDiceGame.sourcelink.json
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\NonTransitiveDiceGame.dll
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\refint\NonTransitiveDiceGame.dll
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\NonTransitiveDiceGame.pdb
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\NonTransitiveDiceGame.genruntimeconfig.cache
+F:\Programming\GitHub\itransition-internship\Task #3\NonTransitiveDiceGame\obj\Debug\net8.0\ref\NonTransitiveDiceGame.dll

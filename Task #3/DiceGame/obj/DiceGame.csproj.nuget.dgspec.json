@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\NonTransitiveDiceGame\\NonTransitiveDiceGame.csproj": {}
+    "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\DiceGame\\DiceGame.csproj": {}
   },
   "projects": {
-    "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\NonTransitiveDiceGame\\NonTransitiveDiceGame.csproj": {
+    "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\DiceGame\\DiceGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\NonTransitiveDiceGame\\NonTransitiveDiceGame.csproj",
-        "projectName": "NonTransitiveDiceGame",
-        "projectPath": "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\NonTransitiveDiceGame\\NonTransitiveDiceGame.csproj",
+        "projectUniqueName": "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\DiceGame\\DiceGame.csproj",
+        "projectName": "DiceGame",
+        "projectPath": "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\DiceGame\\DiceGame.csproj",
         "packagesPath": "C:\\Users\\tamim\\.nuget\\packages\\",
-        "outputPath": "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\NonTransitiveDiceGame\\obj\\",
+        "outputPath": "F:\\Programming\\GitHub\\itransition-internship\\Task #3\\DiceGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -48,8 +48,14 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConsoleTables": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

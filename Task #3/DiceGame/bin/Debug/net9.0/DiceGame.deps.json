@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DiceGame/1.0.0": {
+        "dependencies": {
+          "ConsoleTables": "2.7.0"
+        },
+        "runtime": {
+          "DiceGame.dll": {}
+        }
+      },
+      "ConsoleTables/2.7.0": {
+        "dependencies": {
+          "Wcwidth": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/ConsoleTables.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.7.0.0"
+          }
+        }
+      },
+      "Wcwidth/1.0.0": {
+        "runtime": {
+          "lib/net6.0/Wcwidth.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DiceGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleTables/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6l6Si/7lMaXYHiIERdqdEMIiTjvCF29fObjAmTahsTpjSaMBUv1TMm7qmrOHL32Le3ipFqhph5sm8WOJjZG9Og==",
+      "path": "consoletables/2.7.0",
+      "hashPath": "consoletables.2.7.0.nupkg.sha512"
+    },
+    "Wcwidth/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aekut5BeF4c1Jr2qab3aXcttcgPEfPb2ok2L8911EIzn3RnDBYnUWgx/1OVlqrSXCdwAkBpNgYWXb6b5t4cBng==",
+      "path": "wcwidth/1.0.0",
+      "hashPath": "wcwidth.1.0.0.nupkg.sha512"
+    }
+  }
+}
