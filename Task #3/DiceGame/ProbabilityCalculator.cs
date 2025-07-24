@@ -1,45 +1,29 @@
 using System;
 using System.Collections.Generic;
-
 namespace DiceGame
 {
-    public class ProbabilityCalculator
+    class pc
     {
-        public double CalculateWinProbability(Dice dice1, Dice dice2)
+        public double p(d a, d b)
         {
-            int wins = 0;
-            int total = 0;
-            
-            for (int i = 0; i < 6; i++)
-            {
-                for (int j = 0; j < 6; j++)
+            int w = 0, t = 0;
+            for (int i = 0; i < 6; i++) for (int j = 0; j < 6; j++)
                 {
-                    total++;
-                    if (dice1.Faces[i] > dice2.Faces[j])
-                        wins++;
+                    t++;
+                    if (a.f[i] > b.f[j]) w++;
                 }
-            }
-            
-            return (double)wins / total;
+            return (double)w / t;
         }
-        
-        public double[,] CalculateAllProbabilities(List<Dice> diceList)
+        public double[,] all(List<d> L)
         {
-            int count = diceList.Count;
-            double[,] probabilities = new double[count, count];
-            
-            for (int i = 0; i < count; i++)
-            {
-                for (int j = 0; j < count; j++)
+            int n = L.Count;
+            double[,] pr = new double[n, n];
+            for (int i = 0; i < n; i++) for (int j = 0; j < n; j++)
                 {
-                    if (i == j)
-                        probabilities[i, j] = 0.3333; // Same dice
-                    else
-                        probabilities[i, j] = CalculateWinProbability(diceList[i], diceList[j]);
+                    if (i == j) pr[i, j] = 0.3333;
+                    else pr[i, j] = p(L[i], L[j]);
                 }
-            }
-            
-            return probabilities;
+            return pr;
         }
     }
 }

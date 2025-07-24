@@ -1,31 +1,22 @@
 using System;
-using System.Linq;
-
 namespace DiceGame
 {
-    public class Dice
+    class d
     {
-        public int[] Faces { get; private set; }
-        
-        public Dice(int[] faces)
+        public int[] f;
+        public d(int[] x)
         {
-            if (faces.Length != 6)
-                throw new ArgumentException("Dice must have exactly 6 faces");
-            
-            Faces = faces;
+            if (x.Length != 6) throw new Exception("bad");
+            f = x;
         }
-        
-        public int Roll(int faceIndex)
+        public int r(int i)
         {
-            if (faceIndex < 0 || faceIndex >= 6)
-                throw new ArgumentException("Face index must be 0-5");
-            
-            return Faces[faceIndex];
+            if (i < 0 || i > 5) throw new Exception("bad idx");
+            return f[i];
         }
-        
         public override string ToString()
         {
-            return string.Join(",", Faces);
+            return f[0] + "," + f[1] + "," + f[2] + "," + f[3] + "," + f[4] + "," + f[5];
         }
     }
 }

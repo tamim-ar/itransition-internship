@@ -1,48 +1,29 @@
 using System;
 using System.Collections.Generic;
 using ConsoleTables;
-
 namespace DiceGame
 {
-    public class TableGenerator
+    class tg
     {
-        public void ShowProbabilityTable(List<Dice> diceList)
+        public void show(List<d> L)
         {
-            Console.WriteLine("\nThis is a non-transitive dice game.");
-            Console.WriteLine("Each player picks a different dice and rolls it.");
-            Console.WriteLine("The higher number wins!");
-            Console.WriteLine("\nProbability of win for the user:\n");
-            
-            var calculator = new ProbabilityCalculator();
-            double[,] probabilities = calculator.CalculateAllProbabilities(diceList);
-            
-            // Create headers
-            var headers = new List<string> { "User dice v" };
-            for (int i = 0; i < diceList.Count; i++)
+            Console.WriteLine("prob table");
+            var c = new pc();
+            double[,] p = c.all(L);
+            var h = new List<string> { "dice" };
+            for (int i = 0; i < L.Count; i++) h.Add(L[i].ToString());
+            var t = new ConsoleTable(h.ToArray());
+            for (int i = 0; i < L.Count; i++)
             {
-                headers.Add(diceList[i].ToString());
-            }
-            
-            // Create table
-            var table = new ConsoleTable(headers.ToArray());
-            
-            for (int i = 0; i < diceList.Count; i++)
-            {
-                var row = new List<object> { diceList[i].ToString() };
-                
-                for (int j = 0; j < diceList.Count; j++)
+                var r = new List<object> { L[i].ToString() };
+                for (int j = 0; j < L.Count; j++)
                 {
-                    if (i == j)
-                        row.Add(".3333");
-                    else
-                        row.Add(probabilities[i, j].ToString("F4"));
+                    if (i == j) r.Add("-");
+                    else r.Add(p[i, j].ToString("F2"));
                 }
-                
-                table.AddRow(row.ToArray());
+                t.AddRow(r.ToArray());
             }
-            
-            table.Write();
-            Console.WriteLine();
+            t.Write();
         }
     }
 }
