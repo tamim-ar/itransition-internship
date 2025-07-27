@@ -1,26 +1,30 @@
 ﻿using System;
+
 namespace DiceGame
 {
-    class m
+    class Program
     {
-        static void Main(string[] a)
+        static void Main(string[] args)
         {
-            if (a.Length < 3)
+            if (args.Length < 3)
             {
-                Console.WriteLine("need 3+ dice");
-                Console.WriteLine("eg: dotnet run 1,2,3,4,5,6 1,2,3,4,5,6 1,2,3,4,5,6");
+                Console.WriteLine("Error: You need at least 3 dice!");
+                Console.WriteLine("Example: dotnet run 2,2,4,4,9,9 6,8,1,1,8,6 7,5,3,7,5,3");
                 return;
             }
+
             try
             {
-                var p = new dp();
-                var L = p.p(a);
-                var g = new gc(L);
-                g.s();
+                var parser = new DiceParser();
+                var diceList = parser.ParseDice(args);
+                
+                var game = new GameController(diceList);
+                game.StartGame();
             }
-            catch
+            catch (Exception ex)
             {
-                Console.WriteLine("bad input try again");
+                Console.WriteLine($"Error: {ex.Message}");
+                Console.WriteLine("Example: dotnet run 2,2,4,4,9,9 6,8,1,1,8,6 7,5,3,7,5,3");
             }
         }
     }

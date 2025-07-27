@@ -1,26 +1,40 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+
 namespace DiceGame
 {
-    class dp
+    public class DiceParser
     {
-        public List<d> p(string[] a)
+        public List<Dice> ParseDice(string[] args)
         {
-            var L = new List<d>();
-            foreach (var s in a)
+            var diceList = new List<Dice>();
+            
+            foreach (string arg in args)
             {
-                var p = s.Split(',');
-                if (p.Length != 6) throw new Exception("bad dice");
-                int[] v = new int[6];
-                for (int i = 0; i < 6; i++)
+                try
                 {
-                    int x;
-                    if (!int.TryParse(p[i], out x)) throw new Exception("not number");
-                    v[i] = x;
+                    string[] parts = arg.Split(',');
+                    
+                    if (parts.Length != 6)
+                        throw new ArgumentException($"Each dice must have 6 values, but got {parts.Length}");
+                    
+                    int[] faces = new int[6];
+                    for (int i = 0; i < 6; i++)
+                    {
+                        if (!int.TryParse(parts[i], out faces[i]))
+                            throw new ArgumentException($"'{parts[i]}' is not a valid number");
+                    }
+                    
+                    diceList.Add(new Dice(faces));
                 }
-                L.Add(new d(v));
+                catch (Exception ex)
+                {
+                    throw new ArgumentException($"Error parsing dice '{arg}': {ex.Message}");
+                }
             }
-            return L;
+            
+            return diceList;
         }
     }
 }
