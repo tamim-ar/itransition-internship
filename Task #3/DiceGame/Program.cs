@@ -17,7 +17,7 @@ namespace DiceGame
             {
                 var parser = new DiceParser();
                 var diceList = parser.ParseDice(args);
-                
+
                 var game = new GameController(diceList);
                 game.StartGame();
             }
